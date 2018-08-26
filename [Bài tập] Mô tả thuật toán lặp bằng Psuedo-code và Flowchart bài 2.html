@@ -2,18 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>[Bài tập] Mô tả thuật toán lặp bằng Psuedo-code và Flowchart bài 2</title>
+    <title>[Bài tập] Mô tả thuật toán lặp bằng Psuedo-code và Flowchart bài 1</title>
 </head>
 <body>
 <script>
-    for (i = 0; i <=5 ; i++){
-        var x = prompt("nhập 1 số mà bạn cho là đúng");
-        if (x = a){
-            alert("bạn đã đoán đúng")
-        }else {
-            alert("bạn đã đoán sai")
-        }
+    var a = prompt("nhập số đầu tiên");
+    var a1 = prompt("nhập số thứ 2");
+    var a3 = prompt("nhập số thứ 3");
+    var a4 = prompt("nhập số thứ tư");
+    var max = a;
+    if (a1 > max){
+        a1 = max;
+    } else if (a3 > max){
+        a3 = max;
+    }else if (a4 > max){
+        a4 = max;
     }
+    alert("max là : " + max)
 </script>
 </body>
 </html>
